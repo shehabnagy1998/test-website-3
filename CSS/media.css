@@ -1,0 +1,27 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 575.98px) { 
+    
+
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 767.98px) {
+  
+
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 991.98px) { 
+   
+
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) { 
+   
+
+    
+}

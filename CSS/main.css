@@ -1,0 +1,295 @@
+﻿.mountain-1 {
+  background: url("../IMG/mountains-1.jpg") center no-repeat;
+  background-size: cover; }
+
+.mountain-2 {
+  background: url("../IMG/mountains-2.jpg") center no-repeat;
+  background-size: cover; }
+
+.mountain-3 {
+  background: url("../IMG/mountains-3.jpg") center no-repeat;
+  background-size: cover; }
+
+.mountain-4 {
+  background: url("../IMG/mountains-4.jpg") center no-repeat;
+  background-size: cover; }
+
+.mountain-5 {
+  background: url("../IMG/mountains-5.jpg") center no-repeat;
+  background-size: cover; }
+
+.features-section .picture .overlay-1, .features-section .picture .overlay-2 {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: #242424;
+  opacity: .6; }
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2; }
+
+.navbar {
+  padding: 15px 30px;
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  transition: .5s all; }
+  .navbar.fixed {
+    padding: 5px 30px;
+    position: fixed;
+    top: 0;
+    background: #4a4a4a;
+    opacity: .5; }
+    .navbar.fixed:hover {
+      opacity: 1; }
+  .navbar .navbar-brand,
+  .navbar .navbar-toggler {
+    color: #e0e0e0;
+    font-size: 5.5vw; }
+    @media (min-width: 991.98px) {
+      .navbar .navbar-brand,
+      .navbar .navbar-toggler {
+        font-size: 4vw; } }
+    .navbar .navbar-brand:hover, .navbar .navbar-brand:active,
+    .navbar .navbar-toggler:hover,
+    .navbar .navbar-toggler:active {
+      color: #fff; }
+  .navbar .nav-item {
+    margin-right: 5px; }
+    .navbar .nav-item .nav-link {
+      color: #e0e0e0;
+      font-size: 2.5vw;
+      width: 15%;
+      margin: 0 auto; }
+      @media (min-width: 991.98px) {
+        .navbar .nav-item .nav-link {
+          font-size: 1.5vw;
+          width: 100%; } }
+      .navbar .nav-item .nav-link:hover, .navbar .nav-item .nav-link:active {
+        color: #fff;
+        font-weight: bold; }
+      .navbar .nav-item .nav-link.active {
+        color: #fff !important;
+        border-bottom: 2px solid #fff !important;
+        font-weight: bold !important; }
+
+.scroller {
+  position: relative; }
+
+.home-section {
+  height: 100%;
+  width: 100%;
+  background: url("../IMG/home-cover.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  z-index: 1; }
+  .home-section .home-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 4; }
+    .home-section .home-content .text-inside {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #e0e0e0; }
+      .home-section .home-content .text-inside h1 {
+        font-size: 4.3vw;
+        letter-spacing: 5px; }
+        @media (min-width: 991.98px) {
+          .home-section .home-content .text-inside h1 {
+            font-size: 4.5vw; } }
+      .home-section .home-content .text-inside h3 {
+        font-size: 3vw; }
+        @media (min-width: 991.98px) {
+          .home-section .home-content .text-inside h3 {
+            font-size: 2.3vw; } }
+
+.services-section {
+  padding: 100px 0px 30px;
+  text-align: center; }
+  @media (min-width: 991.98px) {
+    .services-section {
+      padding: 70px 0px; } }
+  .services-section h1 {
+    font-size: 10vw;
+    color: #4a4a4a; }
+    @media (min-width: 991.98px) {
+      .services-section h1 {
+        font-size: 6vw; } }
+  .services-section h3 {
+    font-size: 3.3vw; }
+    @media (min-width: 991.98px) {
+      .services-section h3 {
+        font-size: 2.3vw; } }
+  .services-section p {
+    font-size: 2.3vw;
+    margin-bottom: 70px;
+    color: #4a4a4a; }
+    @media (min-width: 991.98px) {
+      .services-section p {
+        font-size: 1.2vw;
+        margin-bottom: 0; } }
+
+.tours-section {
+  padding: 100px 0px;
+  text-align: left;
+  background: #ddd;
+  display: flex;
+  justify-content: center; }
+  @media (min-width: 991.98px) {
+    .tours-section {
+      padding: 70px 0px; } }
+  .tours-section .content-2 {
+    width: 30%;
+    margin: auto 0px; }
+    .tours-section .content-2 h1 {
+      font-size: 3.3vw; }
+      @media (min-width: 991.98px) {
+        .tours-section .content-2 h1 {
+          font-size: 3vw; } }
+    .tours-section .content-2 p {
+      font-size: 2.3vw; }
+      @media (min-width: 991.98px) {
+        .tours-section .content-2 p {
+          font-size: 1.2vw; } }
+  .tours-section .content-1 {
+    width: 50%;
+    height: 25%;
+    margin-right: 5px; }
+    @media (min-width: 991.98px) {
+      .tours-section .content-1 {
+        width: 30%;
+        height: 60%; } }
+    .tours-section .content-1 .items {
+      width: 100%;
+      height: 100%; }
+
+.features-section {
+  padding: 100px 0px; }
+  @media (min-width: 991.98px) {
+    .features-section {
+      padding: 70px 0px; } }
+  .features-section .picture {
+    height: 40%;
+    position: relative;
+    overflow: hidden; }
+    @media (min-width: 991.98px) {
+      .features-section .picture {
+        height: 53%; } }
+    .features-section .picture .overlay-1 {
+      top: -50%;
+      transition: .5s all; }
+    .features-section .picture .overlay-2 {
+      bottom: -50%;
+      transition: .5s all; }
+    .features-section .picture:hover .overlay-1,
+    .features-section .picture:active .overlay-1 {
+      top: 0%; }
+    .features-section .picture:hover .overlay-2,
+    .features-section .picture:active .overlay-2 {
+      bottom: 0%; }
+    .features-section .picture .text-in {
+      color: #e0e0e0;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .features-section .picture .text-in h1 {
+        font-size: 7vw; }
+        @media (min-width: 991.98px) {
+          .features-section .picture .text-in h1 {
+            font-size: 3vw; } }
+      .features-section .picture .text-in p {
+        font-size: 3vw; }
+        @media (min-width: 991.98px) {
+          .features-section .picture .text-in p {
+            font-size: 1.1vw; } }
+    .features-section .picture .showUp {
+      opacity: 0; }
+    .features-section .picture:hover .showUp,
+    .features-section .picture:active .showUp {
+      transition: .5s .5s all;
+      opacity: 1; }
+  .features-section .blank {
+    background: #242424; }
+
+.subscribe-section {
+  padding: 70px 0px;
+  background: #ddd;
+  text-align: center; }
+  @media (min-width: 991.98px) {
+    .subscribe-section {
+      padding: 50px 0px; } }
+  .subscribe-section .sub-content {
+    position: relative; }
+    .subscribe-section .sub-content input:first-child {
+      padding: 5px 10px;
+      border-radius: 10px;
+      border: 0;
+      outline: none;
+      width: 50%;
+      margin-right: 5px; }
+    .subscribe-section .sub-content .submit {
+      padding: 5px 10px;
+      border-radius: 10px;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+      margin-right: 5px;
+      background: #5d88ff;
+      color: #fff;
+      width: 25%;
+      font-weight: bold;
+      transition: .5s all; }
+      @media (min-width: 991.98px) {
+        .subscribe-section .sub-content .submit {
+          width: 10%; } }
+      .subscribe-section .sub-content .submit:hover {
+        background: #1755fe; }
+      .subscribe-section .sub-content .submit.disabled {
+        opacity: .5;
+        background: #5d88ff !important;
+        cursor: default !important; }
+
+.contact-section {
+  padding: 30px 0px;
+  text-align: center; }
+  @media (min-width: 991.98px) {
+    .contact-section {
+      padding: 50px 0px; } }
+  .contact-section .contact {
+    background: #242424;
+    color: #e0e0e0;
+    padding: 70px 20px 70px 20px;
+    box-shadow: 0 0 20px #242424;
+    text-align: center;
+    position: relative;
+    transition: 1s all;
+    margin-bottom: 40px; }
+    @media (min-width: 991.98px) {
+      .contact-section .contact {
+        margin: 0; } }
+    .contact-section .contact span {
+      font-size: 5vw; }
+      @media (min-width: 991.98px) {
+        .contact-section .contact span {
+          font-size: 2.5vw; } }
+    .contact-section .contact h3 {
+      font-size: 3.5vw;
+      margin-top: 20px; }
+      @media (min-width: 991.98px) {
+        .contact-section .contact h3 {
+          font-size: 1.5vw;
+          margin-top: 15px; } }
+    .contact-section .contact:hover {
+      transform: translateY(-15px); }
